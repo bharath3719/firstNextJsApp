@@ -1,0 +1,86 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "e7xDWCHrckDsHY4UCLrxF3",
+      "projectApiToken": "usz1Euo2DeIS9xSfHBeRVguV79wV1SR7vc3j9kwvOzsFvfVtAj8Y0ORFopveUAGZ1iGTLQifL7yNapsohz1A",
+      "projectName": "nextJsApp",
+      "version": "latest",
+      "cssFilePath": "plasmic/next_js_app/plasmic.module.css",
+      "components": [
+        {
+          "id": "6sZfXiGik7xg",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "e7xDWCHrckDsHY4UCLrxF3",
+          "renderModuleFilePath": "plasmic/next_js_app/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/next_js_app/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "styleTokensProviderFilePath": "plasmic/next_js_app/PlasmicStyleTokensProvider.tsx",
+      "projectModuleFilePath": "plasmic/next_js_app/plasmic.tsx",
+      "codeComponents": [
+        {
+          "id": "rWBizDJgN0lj",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "WyWR4GjwPO8M",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "ODF4WzNV8F0o",
+        "name": "Screen",
+        "projectId": "e7xDWCHrckDsHY4UCLrxF3",
+        "contextFilePath": "plasmic/next_js_app/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.342",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.342/dist/plasmic.schema.json"
+}
